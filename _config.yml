@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Michael Scholze
+paginate:         1
+baseurl:          /
+
+author:
+  name:           Michael Scholze
+
+# Custom vars
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Contact: '/contact'
+  Feed: '/atom.xml'
