@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+
 # Permalinks
 permalink:        pretty
 
@@ -14,7 +15,6 @@ author:
 
 # Custom vars
 pages_list:       
+  Blog: '/blog'
   About: '/about'
-  Archive: '/archive'
   Contact: '/contact'
-  Feed: '/atom.xml'
