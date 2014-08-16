@@ -5,7 +5,7 @@ title: About
 
 ![Michael Scholze](/assets/portrait.jpg)
 
-I am a German physicist (PhD) who works most of the time as software engineer. During the last years I engaged in middle and large scale java projects as technical lead. As a consequence of my experience during last years, I put my focus now on:
+I am a German physicist (PhD) who works most of the time as software engineer. During the last years I engaged in middle and large scale java projects as technical lead. Currently I put my focus on:
 
 * Long term efficiency of software development processes. 
 * Keeping a code base maintainable. 
