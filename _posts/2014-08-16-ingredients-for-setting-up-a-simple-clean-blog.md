@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ingredients for setting up a simple clean blog
+permalink: ingredients-for-setting-up-a-simple-clean-blog
 ---
 
 The main ingredients for this blog are:
