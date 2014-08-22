@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Little Git How To
+permalink: little-git-howto
 ---
 
 ## Sync with Remote Repository
