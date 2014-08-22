@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Effective junit testing with eclipse
+title: Effective JUnit Testing with Eclipse
 permalink: effective-junit-testing-with-eclipse
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ingredients for setting up a simple clean blog
+title: Ingredients for Setting Up a Simple Clean Blog
 permalink: ingredients-for-setting-up-a-simple-clean-blog
 ---
 
