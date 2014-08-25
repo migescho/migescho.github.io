@@ -76,6 +76,13 @@ Delete a branch in the remote repository:
 git push origin :<branch-name>
 ```
 
+Merge branch-1 into branch-2:
+
+```
+git checkout <branch-2>
+git merge <branch-1>
+```
+
 ## Undoing Things
 Unstage a staged file:
 
