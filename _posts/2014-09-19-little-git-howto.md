@@ -70,7 +70,7 @@ git branch -D <branch-name> # delete irrespective of merged status
 git branch -r <branch-name> # delete also local origin branch
 ``` 
 
-Delete a branch in the remote repository:
+Delete a branch in the remote repository and in local origin:
 
 ```
 git push origin :<branch-name>
@@ -95,6 +95,32 @@ Discard all changes in a file and replace it with the last commit:
 ```
 git checkout -- <filename>
 ```
+
+###How to correct a merge into a wrong branch. 
+Example: 
+you merged via gitlab the feature branch feature/foo into master, but you wanted to merge it into develop. The feature branch was deleted by gitlab.
+
+```
+# find out the commit hash of the head from the 
+# deleted feature branch and create a new feature 
+# branch with this head
+
+git branch feature/foo_b <commit_hash>
+
+# find out the commit hash that was the head of master
+# before you accidentally merged
+
+git checkout master
+git reset --hard <commit_hash of previous head of master>
+push --force origin master
+```
+
+Now your accidentally merge into master is undone and you can merge your new created feature branch "feature/foo_b" into the right branch.
+
+<font color='red'>
+Warning:
+Do not use "git reset --hard" and "push --force origin" if anybody in your team may have used your accidental merge commit as a parent commit. Then these commits are hanging around with no connection to a branch and you get a mess. This is history rewriting and should be used with care.
+</font>
 
 ## Tags
 List all tags:
