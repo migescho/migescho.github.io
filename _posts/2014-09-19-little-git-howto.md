@@ -162,3 +162,9 @@ Change default editor:
 git config --global core.editor vim
 ```
 
+## Tools
+A very nice inux (gnome) tool to display the tree structure of the commits and branches is gitg:
+
+```
+apt-get install gitg
+```
