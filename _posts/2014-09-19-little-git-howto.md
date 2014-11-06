@@ -118,7 +118,7 @@ git branch feature/foo_b <commit_hash>
 
 git checkout master
 git reset --hard <commit_hash of previous head of master>
-push --force origin master
+git push --force origin master
 ```
 
 Now your accidentally merge into master is undone and you can merge your new created feature branch "feature/foo_b" into the right branch.
