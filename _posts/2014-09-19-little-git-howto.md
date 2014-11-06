@@ -56,6 +56,12 @@ Switch to a branch:
 git checkout <branch-name>
 ```
 
+Create a new branch from a commit:
+
+```
+git branch <branch-name> <commit_hash>
+```
+
 Push a branch to the remote repository:
 
 ```
