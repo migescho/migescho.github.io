@@ -102,7 +102,7 @@ Discard all changes in a file and replace it with the last commit:
 git checkout -- <filename>
 ```
 
-###How to correct a merge into a wrong branch. 
+### How to correct a merge into a wrong branch. 
 Example: 
 you merged via gitlab the feature branch feature/foo into master, but you wanted to merge it into develop. The feature branch was deleted by gitlab.
 
@@ -127,6 +127,42 @@ Now your accidentally merge into master is undone and you can merge your new cre
 Warning:
 Do not use "git reset --hard" and "push --force origin" if anybody in your team may have used your accidental merge commit as a parent commit. Then these commits are hanging around with no connection to a branch and you get a mess. This is history rewriting and should be used with care.
 </font>
+
+## Stash
+If you want to switch branches, but you don’t want to commit what you’ve been working on yet, you can stash the changes. To push a new stash onto your stack:
+
+```
+git stash
+```
+
+Get a list of your stashes:
+
+```
+git stash list
+```
+
+You can apply a stash in the same or even in a different branch by:
+
+```
+# apply latest stash
+git stash apply  
+
+# apply latest stash and drop it from stash list
+git stash pop
+
+# apply one of the older stashes
+git stash apply <stash>
+```
+
+Remove a stash:
+
+```
+# remove latest stash
+git stash drop
+
+# remove stash <stash>
+git stash drop <stash>
+```
 
 ## Tags
 List all tags:
