@@ -129,10 +129,13 @@ Do not use "git reset --hard" and "push --force origin" if anybody in your team 
 </font>
 
 ## Stash
-If you want to switch branches, but you don’t want to commit what you’ve been working on yet, you can stash the changes. To push a new stash onto your stack:
+If you want to switch branches, but you don't want to commit what you've been working on yet, you can stash the changes. Use git add for new files / directories before you stash. To push a new stash onto your stack:
 
 ```
 git stash
+
+# stash your changes with a message
+git stash save <message>
 ```
 
 Get a list of your stashes:
