@@ -4,6 +4,31 @@ title: Little Git How To
 permalink: little-git-howto
 ---
 
+## Staging and Committing
+
+Staging all modified files
+
+```
+git add .
+```
+
+Removing deleted files from the index
+
+```
+# remove a file
+git rm <file>
+
+# remove all files, that are deleted in file system
+git add -u
+```
+
+Commit staged files
+
+```
+git commit -m '<message>'
+```
+
+
 ## Sync with Remote Repository
 Show the relation of local branches to the remote branches:
 
