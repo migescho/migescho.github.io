@@ -11,3 +11,6 @@ title: Contact
 This is a personal blog from:
 
 ![Michael Scholze](/assets/contact-address.png)
+
+#### Webtracking
+<iframe style="border: 0; height: 200px; width: 600px;" src="http://tracking.michael-scholze.com/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
