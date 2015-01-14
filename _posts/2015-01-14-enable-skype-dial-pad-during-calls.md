@@ -8,4 +8,4 @@ Sometimes you need in Skype a dial pad during a call, for example if you are con
 
 Unfortunately the dial pad is hidden in linux skype 4.3. 
 
-You can make the button, that opens the dial pad, visible by typing the hotkey "d" during your call.
+You can make the button, that opens the dial pad, visible, by typing the hotkey "d" during your call.
